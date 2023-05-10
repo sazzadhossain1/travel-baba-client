@@ -16,6 +16,16 @@ function App() {
       children: [
         {
           path: "/",
+          loader: async () => {
+            return fetch("http://localhost:5000/hotels/");
+          },
+          element: <Home></Home>,
+        },
+        {
+          path: "/home",
+          loader: async () => {
+            return fetch("http://localhost:5000/hotels/");
+          },
           element: <Home></Home>,
         },
         {
