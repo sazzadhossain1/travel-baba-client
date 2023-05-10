@@ -1,0 +1,10 @@
+.home-parent-div {
+  background: rgba(0, 0, 0, 0.4) url("/src/images/Rectangle\ 1.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-position: bottom;
+}
